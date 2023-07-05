@@ -11,7 +11,7 @@ const Blog = () => {
   }, [searchParams]); */
 
   const { data, loading, error } = useFetch(
-    "https://jsonplaceholder.typicode.com/items"
+    "https://jsonplaceholder.typicode.com/posts"
   );
 
   if (loading) {
